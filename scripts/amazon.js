@@ -1,4 +1,4 @@
-
+import { cart } from "../data/cart";
 let productHTML = '';
 
 // Syntax for a Data Attribute
