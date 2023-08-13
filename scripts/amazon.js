@@ -61,7 +61,6 @@ products.forEach((product) => {
         </div>
     `;
 });
-
 document.querySelector('.js-products-grid').innerHTML
 = productHTML;
 
@@ -80,6 +79,6 @@ document.querySelectorAll('.js-add-to-cart').forEach((button) => {
     // console.log(button.dataset.productName); // eg: Intermediate Size Basketball
     const productId = button.dataset.productId;
     addToCart(productId);
-   updateCartQuantity();
+    updateCartQuantity();
   });
 })
